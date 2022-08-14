@@ -9,7 +9,7 @@ module.exports = {
   jest: {
     configure: {
       preset: "ts-jest",
-      testEnvironment: "node",
+      testEnvironment: "jest-environment-jsdom",
       collectCoverageFrom: ["src/**/*.{ts, tsx}"],
       coverageThreshold: {
         global: {
