@@ -1,9 +1,8 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react"
+import App from "@/src/App" // make sure absolute path work
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+test("Should have title", () => {
+  render(<App />)
+  const linkElement = screen.getByText("Test")
+  expect(linkElement).toBeInTheDocument()
+})
