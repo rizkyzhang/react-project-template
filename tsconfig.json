@@ -16,7 +16,7 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["src/*"]
     },
     "resolveJsonModule": true,
     "rootDir": ".",
